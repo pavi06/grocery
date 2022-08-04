@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>houshold</title>
+    <link rel="stylesheet" href="styles/css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles/indexcss.css">
+</head>
+<body>
+
+<section class="menu" id="menu">
+
+    <header class="header">
+
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="">
+        </a>
+    
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="">Catogories</a>
+            <a href="">Offers</a>
+            <a href="">BestSeller</a>
+            <a href="#review">Review</a>
+        </nav>
+    
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+    
+
+    
+    </header>
+    <div style="margin-top:80px;">
+        <h3 class="heading">Household Products</h3>
+    </div>
+    
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <center><img src="data:image/jpeg;base64,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" alt=""></center>
+            <h3>HAND SOAP</h3>
+            <h3>DETTOL</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Rs.173</h3> 
+            <center><a href="#" class="btn">Add to cart</a></center>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <center><img src="https://media4.giphy.com/media/J5dtU9spFR6PL5UwV7/giphy.gif" alt=""></center>
+            <h3>DISH SOAP</h3>
+            <h3>AJAX</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Rs.55</h3> 
+            <center><a href="#" class="btn">Add to cart</a></center>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <center><img src="https://5.imimg.com/data5/US/YR/MY-23824141/mink-double-bed-blanket-500x500.jpg" alt=""></center>
+            <h3>BLANKET</h3>
+            
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Rs.156</h3> 
+            <center><a href="#" class="btn">Add to cart</a></center>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <center><img src="https://cdn.nazmiyalantiquerugs.com/wp-content/uploads/2018/06/rolling-up-rugs-carpets-nazmiyal.gif"alt=""></center>
+            <h3>CARPET</h3>
+          
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Rs.299</h3>
+            
+            <center><a href="#" class="btn">Add to cart</a></center>
+            
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <center><img src="https://static.wixstatic.com/media/ff7cb3_5be2d8288f2a4b87bc984a23f3779115~mv2.gif"alt=""></center>
+            <h3>KNIFE</h3>
+            
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Rs.99</h3>
+            <center><a href="#" class="btn">Add to cart</a></center>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <center><img src="https://c.tenor.com/i-8ijc2MPigAAAAM/charging.gif"alt=""></center>
+            <h3>CHARGER</h3>
+            
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Rs.349</h3>
+            <center><a href="#" class="btn">Add to cart</a></center>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <center><img src="https://i.gifer.com/origin/3b/3bda2d8ce8acf1df358a3b82d9af9b0c_w200.gif"alt=""></center>
+            <h3>MOP</h3>
+           
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Rs.299</h3>
+            <center><a href="#" class="btn">Add to cart</a></center>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <center><img src="https://i.pinimg.com/originals/05/d1/a4/05d1a4f4da2f70f58e978a86b5717963.gif"alt=""></center>
+            <h3>TOOTH BRUSH</h3>
+         
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Rs.60</h3>
+            <center><a href="#" class="btn">Add to cart</a></center>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <center><img src="https://www.dynastyplastic.com/images/plastic-dust-pan-607.gif"alt=""></center>
+            <h3>DUST PAN</h3>
+            
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Rs.169</h3>
+            <center><a href="#" class="btn">Add to cart</a></center>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <center><img src="https://image.shutterstock.com/image-photo/close-garbage-bag-black-on-260nw-1473478826.jpg"alt=""></center>
+            <h3>TRASH BAGS</h3>
+            
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Rs.90</h3>
+            <center><a href="#" class="btn">Add to cart</a></center>
+        </div>
+
+        <div class="box">
+            <!-- <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a> -->
+            <center><img src="https://cdn.dribbble.com/users/2120942/screenshots/5624974/bucket-movement.gif"alt=""></center>
+            <h3>BUCKET</h3>
+            <h3>1L</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Rs.150</h3>
+            <center><a href="#" class="btn">Add to cart</a></center>
+            
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <center><img src="https://media.baamboozle.com/uploads/images/245704/1635261089_76519_gif-url.gif"alt=""></center>
+            <h3>BROOM</h3>
+          
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Rs.65</h3>
+            <center><a href="#" class="btn">Add to cart</a></center>
+            
+        </div>
+    </div>
+</section>
+</body>

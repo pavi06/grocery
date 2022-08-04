@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>RegisterPage</title>
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+	<link href="styles/regcss.css" rel="stylesheet">
+</head>
+<body>
+	<div class="banner-text">
+		<div class="div1">
+            <div class="form">
+                <h1>WELCOME..</h1>
+            <form   name="myForm"  method="post">
+                <label>UserName: </label>
+                <input type="text" id="name" name="UserName"><br><br>
+                
+                <label>Email: </label>
+                <input type="email" name="email"><br><br>
+        
+                <label>Phone Number: </label>
+                <input type="tel" name="phno"><br><br>
+        
+                <label>Gender: </label>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female<br><br>
+        
+                <label>Address: </label>
+                <textarea name="address" rows="3" cols="30"></textarea><br><br>
+        
+                <label>Password: </label>
+                <input type="text" name="password"><br><br>
+        
+                <label>Confirm Password: </label>
+                <input type="text" name="cpassword"><br><br><br>
+        
+                <center><button type="submit" form="form1" value="submit" onclick=" return validateForm()">&nbspSignUP&nbsp</button></center>
+        
+            </form>
+            </div> 
+        </div>
+        <div class="regimage">
+            <img src="images/simage.png">
+        </div>
+	</div>
+	<!-- <div class="animation-area">
+		<ul class="box-area">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div> -->
+</body>
+</html>
