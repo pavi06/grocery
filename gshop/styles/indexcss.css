@@ -144,6 +144,7 @@ section{
     
     padding: 18x;
     justify-content: space-between;
+    display: inline-block;
     
 }
 
@@ -159,6 +160,17 @@ section{
     color: #fff;
     padding: 10px 30px;
     letter-spacing: 2px;
+    
+}
+
+.home .content .abtn .sbtn{
+    display: none;
+    border-radius: 10px;
+}
+
+.home .content .abtn .bbtn{
+    display: none;
+    border-radius: 10px;
 }
 
 .home .content h3{
