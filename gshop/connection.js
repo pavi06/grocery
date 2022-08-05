@@ -15,3 +15,5 @@ pool.query(`select * from products`, (err,result,fields)=>{
     }
     return console.log(result);
 })
+
+module.exports = pool;
