@@ -6,8 +6,8 @@
     --light-color:#666;
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
     --border:.2rem solid rgba(0,0,0,.1);
-    --outline:.1rem solid rgba(0,0,0,.1);
-    --outline-hover:.2rem solid var(--black);
+    --outline:.1rem solid rgba(137, 8, 8, 0.337);
+    --outline-hover:.2rem solid var(--orange);
 }
 
 *{
@@ -27,6 +27,9 @@ html{
     scroll-padding-top: 7rem;
     background-color: #EBCBD4 ;
 
+}
+h2{
+    color:#bd1c47ca;
 }
 
 section{
