@@ -21,7 +21,7 @@
     <nav class="navbar">
         <a href="#home">home</a>
         <a href="#products">products</a>
-        <a href="">AddProduct</a>
+        <a href="#" onclick="openPopUp(); return false;">AddProduct</a>
         <a href="">LogOut</a>
     </nav>
 
@@ -80,7 +80,24 @@
 
     </div>
 
+    <div class="popUp" id="popup">
+        <h2>Thank You for Approaching us..</h2><br>
+        <p>Send your products details to the mail id specified here 'Grossco@gmail.com'..Your Product details should be sent as a pdf format with the following information: Vendor code,Product Catagory,Product description,Quantity,Cost and Product Expiry date.  Thank you..</p>
+        <button type="button" class="btn" onclick="closePopUp()">OK</button>
+    </div>
+
 </section>
+
+<script>
+    let p=document.getElementById("popup");
+    function openPopUp(){
+        p.classList().add("open-popUp");
+    }
+
+    function closePopUp(){
+        p.classList.remove("open-popUp");
+    }
+</script>
 
 
 </body>
