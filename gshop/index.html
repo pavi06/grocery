@@ -29,8 +29,17 @@
                 <h3>It's &nbsp An<br><p class="markw">SUPER MART&nbsp</p>Kinda day!</h3>
                 <!-- <p>SEARCH and SHOP your favourite now...</p> -->
                 <div class="abtn">
-                    <button class="lrbtn" onclick="">FOR SELLER</button>
-                    <button class="lrbtn" onclick="">FOR BUYER</button>
+                    <div class="sell">
+                        <button class="lrbtn " id="seller">FOR SELLER</button>
+                        <button class="sbtn" onclick="">Register</button>
+                        <button class="sbtn" onclick="">Login</button>
+                    </div>
+                    <br>
+                    <div class="buy">
+                        <button class="lrbtn" id="buyer">FOR BUYER</button>
+                        <button class="bbtn" onclick="">Register</button>
+                        <button class="bbtn" onclick="">Login</button>
+                    </div>
                 </div>
             </div>
             <div class="himage">
@@ -59,9 +68,9 @@
                         We offer you convenience of shopping everything that you need for your home.<br><br> buy  fresh fruits & vegetables, rice, dals, oil, packaged food, dairy item, frozen, pet food, household cleaning items & personal care products from a single virtual store.
                     </p>
 
-                    <!-- <h3>ADD-SELL-EARN</h3>
-                    <p>
-                    </p> -->
+                    <h3>ADD-SELL-EARN</h3>
+                    <p>Our website allows the seller to sell their products and will get benifited by attracting large crowd of people.
+                    </p>
                     
                 </div>
         
@@ -85,26 +94,27 @@
             </div>
             <p>..Follow us on above links..</p>
         </section>
-        <!-- Swiper JS -->
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            var s=document.getElementById("seller");
+            var b=document.getElementById("buyer");
+            var sb=document.getElementsByClassName("sbtn")
+            var bb=document.getElementsByClassName("bbtn");
+            s.onclick= function(){
+                if(sb.style.display=="none"){
+                    sb.style.display="block";
+                }else{
+                    sb.style.display="none";
+                }
+            }
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      slidesPerGroup: 3,
-      loop: true,
-      loopFillGroupWithBlank: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  </script>
+            b.onclick=function(){
+                if(bb.style.display=="none"){
+                    bb.style.display="block";
+                }else{
+                    bb.style.display="none";
+                }
+            }
+        </script>
+  
     </body>
 </html>
