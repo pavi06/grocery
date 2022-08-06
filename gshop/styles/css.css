@@ -158,3 +158,19 @@ section:nth-child(even){
 }
 
 
+/*
+.cart{
+    width:250px;
+    float:right;
+    text-align: center;
+    border:1px solid black;
+    overflow-y:scroll;
+    height: 100%;
+    background-color: black;
+}
+.cartImg{
+    width:200px;
+}
+*/
+
+
